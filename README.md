@@ -30,6 +30,7 @@ Next packages must be installed for using the rules:
   * PHPStan: https://marketplace.visualstudio.com/items?itemName=calsmurf2904.vscode-phpstan
 
 ##Usage:
+
 * ### Rules
   * for PHPMD: `./vendor/bvcmxy/php-code-rules/phpcs/laravel/phpcs.xml`
   * for PHPCS: `./vendor/bvcmxy/php-code-rules/phpmd/laravel/phpmd.xml`
