@@ -29,7 +29,7 @@ Next packages must be installed for using the rules:
   * PHPCS Fixer: https://marketplace.visualstudio.com/items?itemName=junstyle.php-cs-fixer
   * PHPStan: https://marketplace.visualstudio.com/items?itemName=calsmurf2904.vscode-phpstan
 
-##Usage:
+## Usage:
 
 * ### Rules
   * for PHPMD: `./vendor/bvcmxy/php-code-rules/phpcs/laravel/phpcs.xml`
