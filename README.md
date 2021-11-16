@@ -1,0 +1,2 @@
+# phprules
+rules for php
