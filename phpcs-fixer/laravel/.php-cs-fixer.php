@@ -3,6 +3,8 @@
  * This document has been generated with
  * https://mlocati.github.io/php-cs-fixer-configurator/#version:3.0.0|configurator
  * you can change this configuration by importing this file.
+ *
+ * @author Vivian Bogdan
  */
 $config = new PhpCsFixer\Config();
 return $config

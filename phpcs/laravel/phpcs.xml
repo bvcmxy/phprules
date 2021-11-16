@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<ruleset name="ZF">
-    <description>ZF rules</description>
+<ruleset name="PHPCS RULES">
+    <description>PHP CS rules</description>
     <arg name="tab-width" value="4"/>
 
     <exclude-pattern>\.git</exclude-pattern>

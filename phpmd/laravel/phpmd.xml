@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
-<ruleset name="teranex PMD ruleset" xmlns="http://pmd.sf.net/ruleset/1.0.0"
+<ruleset name="PMD ruleset" xmlns="http://pmd.sf.net/ruleset/1.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://pmd.sf.net/ruleset/1.0.0 http://pmd.sf.net/ruleset_xml_schema.xsd"
-         xsi:noNamespaceSchemaLocation=" http://pmd.sf.net/ruleset_xml_schema.xsd">
+         xsi:noNamespaceSchemaLocation="http://pmd.sf.net/ruleset_xml_schema.xsd">
     <description>teranex PMD ruleset</description>
 
 
@@ -105,7 +105,7 @@
     <rule ref="rulesets/codesize.xml/ExcessiveParameterList">
         <properties>
             <!--The parameter count reporting threshold -->
-            <property name="minimum" value="6"/>
+            <property name="minimum" value="8"/>
         </properties>
     </rule>
 
@@ -143,7 +143,7 @@
             <!-- The method count reporting threshold -->
             <property name="maxmethods" value="25"/>
             <!-- Ignore methods matching this regex -->
-            <property name="ignorepattern" value="(^(set|get))i"/>
+            <property name="ignorepattern" value="(^(set|get|scope))i"/>
         </properties>
     </rule>
 
@@ -155,9 +155,9 @@
     <rule ref="rulesets/codesize.xml/TooManyPublicMethods">
         <properties>
             <!-- The method count reporting threshold -->
-            <property name="maxmethods" value="6"/>
+            <property name="maxmethods" value="10"/>
             <!-- Ignore methods matching this regex -->
-            <property name="ignorepattern" value="(^(set|get))i"/>
+            <property name="ignorepattern" value="(^(set|get|scope))i"/>
         </properties>
     </rule>
 
@@ -294,7 +294,7 @@
         <properties>
             <!--  Comma separated list of suspect function images -->
             <property name="unwanted-functions"
-                      value="var_dump,print_r,debug_zval_dump,debug_print_backtrace,pr,debug"/>
+                      value="var_dump,print_r,debug_zval_dump,debug_print_backtrace,debug,exit,dd,ddd,dump,debug,var_export"/>
         </properties>
     </rule>
 	
@@ -311,7 +311,7 @@
     <rule ref="rulesets/naming.xml/ShortVariable">
         <properties>
             <property name="minimum" value="3"/>
-            <property name="exceptions" value="id"/>
+            <property name="exceptions" value="id,i,j,e,f,fp"/>
         </properties>
     </rule>
 
