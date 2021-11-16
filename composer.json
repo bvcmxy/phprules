@@ -1,0 +1,11 @@
+{
+    "name": "bvcmxy/php-code-rules",
+    "description": "PHP Code Rules",
+    "authors": [
+        {
+            "name": "Bogdan Vivian",
+            "email": "vivianbogdan@gmail.com"
+        }
+    ],
+    "require": {}
+}
