@@ -36,14 +36,14 @@ Next packages must be installed for using the rules:
   * for PHPCS: `./vendor/bvcmxy/php-code-rules/phpmd/laravel/phpmd.xml`
   * for PHPCS Fixer: `./vendor/bvcmxy/php-code-rules/phpcs-fixer/laravel/.php-cs-fixer.php`
   * for PHPStan: `./vendor/bvcmxy/php-code-rules/phpstan/laravel/stan.neon`
-* ###Examples (CLI)
+* ### Examples (CLI)
   * PHPMD: PHPMD: `php vendor/bin/phpmd ./app text ./vendor/bvcmxy/php-code-rules/phpmd/laravel/phpmd.xml`
   * PHPCS: `php vendor/bin/phpcs --standard=vendor/bvcmxy/php-code-rules/phpcs/laravel/phpcs.xml --error-severity=1 --warning-severity=8 --extensions=php  ./app`
   * PHPCS Fixer: `vendor/bin/php-cs-fixer fix ./app/ --config=./vendor/bvcmxy/php-
     code-rules/phpcs-fixer/laravel/.php-cs-fixer.php --dry-run`
   * PHPStan: `php vendor/bin/phpstan analyse -c ./vendor/bvcmxy/php-code-rules/phpstan/laravel/stan.neon`
   * PHPCPD: `php vendor/bin/phpcpd ./app`
-* ###Using in Composer
+* ### Using in Composer
   * add in composer in script section if exists, if not add section `"scripts":{}`:
   ```composer log 
   "phpcs": [
