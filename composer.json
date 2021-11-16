@@ -9,11 +9,11 @@
     ],
     "scripts": {
         "post-install-cmd": [
-            "composer require phpmd/phpmd",
-            "composer require sebastian/phpcpd",
-            "composer require squizlabs/php_codesniffer",
-            "composer require friendsofphp/php-cs-fixer",
-            "composer require phpstan/phpstan"
+            "composer require --dev phpmd/phpmd",
+            "composer require --dev sebastian/phpcpd",
+            "composer require --dev squizlabs/php_codesniffer",
+            "composer require --dev friendsofphp/php-cs-fixer",
+            "composer require --dev phpstan/phpstan"
         ],
         "post-update-cmd": [
             "composer update phpmd/phpmd",
