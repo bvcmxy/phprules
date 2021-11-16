@@ -140,7 +140,7 @@ return $config
         'single_line_after_imports' => true,
         'single_line_comment_style' => true,
         'single_quote' => true,
-        'single_trait_insert_per_statement' => true,
+        'single_trait_insert_per_statement' => false,
         'space_after_semicolon' => true,
         'standardize_increment' => true,
         'standardize_not_equals' => true,
