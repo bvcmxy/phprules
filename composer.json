@@ -6,8 +6,5 @@
             "name": "Bogdan Vivian",
             "email": "vivianbogdan@gmail.com"
         }
-    ],
-    "bin": [
-        "php-code-rules-install-dependecies"
     ]
 }
