@@ -4,7 +4,7 @@ Rules for PHP Coding Standard
 
 ## Install
 
-Run `composer require --dev "bvcmxy/php-code-rules:v1.0.0"`
+Run `composer require --dev "bvcmxy/php-code-rules"`
 
 ## Post Install
 
