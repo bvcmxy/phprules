@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+composer require --dev phpmd/phpmd
+composer require --dev sebastian/phpcpd
+composer require --dev squizlabs/php_codesniffer
+composer require --dev friendsofphp/php-cs-fixer
+composer require --dev phpstan/phpstan

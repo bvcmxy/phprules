@@ -7,20 +7,7 @@
             "email": "vivianbogdan@gmail.com"
         }
     ],
-    "scripts": {
-        "post-install-cmd": [
-            "composer require --dev phpmd/phpmd",
-            "composer require --dev sebastian/phpcpd",
-            "composer require --dev squizlabs/php_codesniffer",
-            "composer require --dev friendsofphp/php-cs-fixer",
-            "composer require --dev phpstan/phpstan"
-        ],
-        "post-update-cmd": [
-            "composer update phpmd/phpmd",
-            "composer update sebastian/phpcpd",
-            "composer update squizlabs/php_codesniffer",
-            "composer update friendsofphp/php-cs-fixer",
-            "composer update phpstan/phpstan"
-        ]
-    }
+    "bin": [
+        "php-code-rules-install-dependecies"
+    ]
 }
